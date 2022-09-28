@@ -1,0 +1,76 @@
+{
+  "list-context.image-list#highlights-slider": {
+    "children": ["slider-layout#highlights-slider"],
+    "props": {
+      "height": 200,
+      "images": [
+        {
+          "image": "https://drogariasp.vteximg.com.br/arquivos/dpsp-superofertas-saude-23-ago-2022-thumb-195x185.png?v=637967828730470000",
+          "description": "mobile"
+        },
+        {
+          "image": "https://drogariasp.vteximg.com.br/arquivos/dpsp-superofertas-saude-23-ago-2022-thumb-195x185.png?v=637967828730470000",
+          "description": "mobile"
+        },
+        {
+          "image": "https://drogariasp.vteximg.com.br/arquivos/dpsp-superofertas-saude-23-ago-2022-thumb-195x185.png?v=637967828730470000",
+          "description": "mobile"
+        },
+        {
+          "image": "https://drogariasp.vteximg.com.br/arquivos/dpsp-superofertas-saude-23-ago-2022-thumb-195x185.png?v=637967828730470000",
+          "description": "mobile"
+        },
+        {
+          "image": "https://drogariasp.vteximg.com.br/arquivos/dpsp-superofertas-saude-23-ago-2022-thumb-195x185.png?v=637967828730470000",
+          "description": "mobile"
+        },
+        {
+          "image": "https://drogariasp.vteximg.com.br/arquivos/dpsp-superofertas-saude-23-ago-2022-thumb-195x185.png?v=637967828730470000",
+          "description": "mobile"
+        },  {
+          "image": "https://drogariasp.vteximg.com.br/arquivos/dpsp-superofertas-saude-23-ago-2022-thumb-195x185.png?v=637967828730470000",
+          "description": "mobile"
+        },  {
+          "image": "https://drogariasp.vteximg.com.br/arquivos/dpsp-superofertas-saude-23-ago-2022-thumb-195x185.png?v=637967828730470000",
+          "description": "mobile"
+        }
+
+      ]
+    }
+  },
+  "slider-layout#highlights-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2.5
+      },
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "blockClass": "highlights-slider",
+      "showPaginationDots": "never",
+      "navigationStep": "page",
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
+      },
+      "centerModeSlidesGap": 10
+    }
+  },
+  "rich-text#highlights-slider": {
+    "props": {
+      "blockClass": "slider-title",
+      "text": "Destaques"
+    }
+  },
+  "flex-layout.col#highlights-slider": {
+    "children": [
+      "rich-text#highlights-slider",
+      "list-context.image-list#highlights-slider"
+    ],
+    "props": {
+      "blockClass": "highlights-slider"
+    }
+  }
+}

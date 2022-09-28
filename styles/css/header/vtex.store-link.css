@@ -1,0 +1,45 @@
+.link--tip-bar1{
+  text-decoration: none;
+}
+
+.link--tip-bar2{
+  text-decoration: none;
+}
+
+.link--tip-bar3{
+  text-decoration: none;
+}
+
+.link--tip-bar4{
+  text-decoration: none;
+}
+
+.childrenContainer--tip-bar1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.childrenContainer--tip-bar2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.childrenContainer--tip-bar3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+
+}
+
+.childrenContainer--tip-bar4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+
+}

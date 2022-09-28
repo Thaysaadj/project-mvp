@@ -1,0 +1,110 @@
+.paginationDot {
+  background: #48494c;
+}
+
+.paginationDot--isActive {
+  background: #1175f690;
+}
+
+.sliderArrows {
+  padding: 0.5rem;
+
+  color: #ff3333;
+}
+
+.sliderArrows .caretIcon {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.sliderLeftArrow {
+  left: -1.7rem;
+}
+
+.sliderRightArrow {
+  right: -1.7rem;
+}
+
+.sliderArrows--carousel {
+  border-radius: 0.25rem;
+
+  background-color: #f1f1f1 !important;
+
+  opacity: 0.5;
+}
+
+.sliderArrows--carousel:hover {
+  opacity: 1;
+}
+
+.sliderLeftArrow--carousel {
+  left: 0.75rem !important;
+}
+
+.sliderRightArrow--carousel {
+  right: 0.75rem !important;
+}
+
+.sliderTrackContainer--slider-varieties::-webkit-scrollbar {
+  display: none;
+}
+
+.slide--slider-varieties {
+  margin: 0 0 0 10px;
+}
+
+.sliderLayoutContainer--slider-varieties {
+  padding-top: 2rem;
+}
+
+.imageElement--highlights-slider {
+  height: 180px;
+  object-fit: cover;
+}
+
+.slideChildrenContainer--promotions-slider{
+    background-color: red;
+    border-radius: 8px;
+}
+
+
+/* .imageElement--carousel {
+  height: 540px;
+  max-width: 540px;
+  width: 540px;
+
+} */
+
+
+
+/* .slide--promotions-slider-images--visible{
+  height: 230px !important;
+  width: 320px !important;
+} */
+
+
+@media (min-width: 1026px) {
+  .imageElement--highlights-slider {
+    height: initial;
+  }
+
+  .sliderLayoutContainer--slider-varieties {
+    padding-top: 0;
+    margin: 0 auto;
+    max-width: 76rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sliderLeftArrow {
+    left: -2.5rem;
+  }
+
+  .sliderRightArrow {
+    right: -2.5rem;
+  }
+
+  .slideChildrenContainer--promotions-slider {
+    background-color: transparent;
+  }
+}

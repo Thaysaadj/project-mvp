@@ -1,0 +1,151 @@
+{
+  "list-context.image-list#varieties": {
+    "children": [
+      "varieties-slider#mobile",
+      "varieties-slider#desktop",
+      "slider-layout#varieties-desktop",
+      "slider-layout#varieties-mobile"
+    ],
+    "props": {
+      "height": 50,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/Group%207%20(1)%20(1)%20(1)%20(1)%20(1)___c6b3ed853fb16a08b265753b50e0c57a.png",
+          "description": "mobile"
+        }
+      ]
+    }
+  },
+  "varieties-slider#mobile": {
+    "props": {
+      "Slider": "slider-layout#varieties-mobile",
+      "varietiesItem": [
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Saude Bucal"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Teste Covid"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Beleza"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Bem Estar"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Descontos"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": ""
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": ""
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": ""
+        }
+      ]
+    }
+  },
+  "varieties-slider#desktop": {
+    "props": {
+      "Slider": "slider-layout#varieties-desktop",
+      "varietiesItem": [
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Saude Bucal"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Teste Covid"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Beleza"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Bem Estar"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Descontos"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Lojas"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Higiene Pessoal"
+        },
+        {
+          "url": "/",
+          "image": "https://www.pikpng.com/pngl/b/48-481433_tag-png.png",
+          "imageTitle": "Alimentos e Bebidas"
+        }
+      ]
+    }
+  },
+  "slider-layout#varieties-desktop": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 5.5,
+        "phone": 3.5
+      },
+      "blockClass": "slider-varieties",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "navigationStep": "page",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "slider-layout#varieties-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8.5,
+        "tablet": 6.5,
+        "phone": 5.5
+      },
+      "blockClass": "slider-varieties",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "navigationStep": 1,
+      "infinite": false,
+      "usePagination": true,
+      "slideTransition": {
+        "speed": 400,
+        "delay": 0,
+        "timing": ""
+      }
+    }
+  }
+}
